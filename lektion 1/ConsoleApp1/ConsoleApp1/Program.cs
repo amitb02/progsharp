@@ -13,7 +13,7 @@ namespace ConsoleApp1
         /// </summary>
         static void doWrite()
         {
-            Console.WriteLine("""Hej"" hörde jag någon säga på stan.");
+            Console.WriteLine("\"Hej\" hörde jag någon säga på stan.");
             Console.WriteLine("Efter en stund svarade någon annan också med ett \"Hej!\"");
 
         }
