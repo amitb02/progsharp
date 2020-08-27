@@ -40,6 +40,32 @@ namespace ConsoleApp1
     class Program
     {
         /// <summary>
+        ///
+        ///    /\
+        ///   /  \
+        ///  / ”” \
+        /// /______\
+        /// </summary>
+        static void u17()
+        {
+            Console.WriteLine("    /\\");
+            Console.WriteLine("   /  \\");
+            Console.WriteLine("  / \"\" \\");
+            Console.WriteLine(" /______\\");
+            Console.WriteLine("");
+        }
+        /// <summary>
+        /// Uppgift 1.4
+        /// Skapa ett program där du skriver ut lite text.Programfönstrets utseende ska påminna om den svenska flaggan
+        /// genom att bakgrundsfärgen ska vara blå och textfärgen gul.
+        /// </summary>
+        static void setupConsole()
+        {
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.DarkYellow; 
+
+        }
+        /// <summary>
         /// Skriv ut följande:
         /// "Hej" hörde jag någon säga på stan.
         /// Efter en stund svarade någon annan också med ett "Hej!".
@@ -47,6 +73,7 @@ namespace ConsoleApp1
         /// </summary>
         static void doWrite()
         {
+            
             Console.WriteLine("\"Hej\" hörde jag någon säga på stan.");
             Console.WriteLine("Efter en stund svarade någon annan också med ett \"Hej!\"");
 
@@ -58,9 +85,11 @@ namespace ConsoleApp1
             amitsMugg.Write();
             Console.WriteLine("PIOTR TEST:");
             piotrsMugg.Write();
+
         }
         static void Main(string[] args)
         {
+            u17();
             doWrite();
         }
     }
